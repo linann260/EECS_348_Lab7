@@ -1,0 +1,60 @@
+/*Purpose: CSS code for Lab 7 Practice 1*/
+
+/*Style of Home Button*/
+.btn {
+    background-color: rgb(237, 132, 152); /* Blue background */
+    border: None;/* Remove borders */
+    border-radius: 25px;
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+/*Changes color of Home Button when hovered*/
+.btn:hover {
+    background-color: rgb(255, 212, 212);
+}
+
+body{
+    font-family: "Quicksand", sans;
+    padding: 50px 50px 50px;
+}
+
+div{
+    padding-top:30px; 
+    padding-left: 5vw;
+    padding-bottom: 30px;
+}
+
+/*Format for the container containing the image and text*/
+.container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+
+img {
+    border-radius: 50%; /*makes image circular*/
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*Purpose: CSS code for Lab 7 Practice 1*/
+
+.text{
+    font-size: 3vw; /*font size is responsive*/
+}
+
+.image{
+    /*image size is responsive*/
+    width: 25vw;
+    height: 25vw;
+}
+
+iframe{
+    /*video size is responsive*/
+    max-width: 100%;
+    max-height: auto;
+}

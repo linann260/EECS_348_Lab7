@@ -1,0 +1,64 @@
+<!--Purpose: HTML code for Practice 1 -->
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0"> <!--scales page to fit screen of device-->
+
+        <!--Google font-->
+        <link rel = "preconnect" href = "https://fonts.googleapis.com">
+        <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+        <link href = "https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel = "stylesheet">
+
+        <!--Button Icon found on W3Schools-->
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!--Imports CSS from practice1.css-->
+        <link rel = "stylesheet" href = "practice1.css">
+        
+        <title>Practice 1</title>
+    </head>
+
+    <body>
+         <!--Home button with icon that opens to index.html-->
+        <button class = "btn" onclick = "window.location.href = 'index.html';"><i class = "fa fa-home"></i> Home</button>
+
+        <div class = "container"> <!--formats image and text side by side-->
+            <div class = "image">
+                <img id = "image" src = "square profile.png">
+            </div>
+
+            <div class = "text">
+                <h1>Hello! <br> I am Anna</h1>
+            </div>
+        </div>
+
+        <h2>About Me</h2>
+        <p>I am a sophomore at KU studying computer science and minoring in Chinese and mathematics.
+            I am passionate about technology and the user experience. Reach out to me at anna.lin@ku.edu.</p>
+
+        <h2>Relavant Course History</h2>
+        <p>Programming 1, Programming 2, Software Engineering</p>
+
+        <h2>Skills</h2>
+        <p>Python, C, C++, HTML, CSS, JavaScript, PHP</p>
+
+        <h2>Outside of Academics</h2>
+        <p>Beyond coding I like to spend my free time binge watching C-dramas and reality shows, crocheting, relaxing to music, and shopping.</p>
+
+        <p>Check out one of my recent favorite shows:</p>
+        
+        <!--Youtube video-->
+        <iframe width = "560" height = "315" 
+            src = "https://www.youtube.com/embed/tbl9jxvlVgA?si=7jB6v0FuAIXQJT-i&amp;start=121" 
+            title = "YouTube video player" frameborder = "0"
+            allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <p>And my recent favorite Spotify playlist:
+            <a href = "https://open.spotify.com/playlist/3rNqxghsSqsloXkPly9FIU" target = "_blank">Spotify Playlist</a>
+        </p>
+
+    </body>
+
+</html>

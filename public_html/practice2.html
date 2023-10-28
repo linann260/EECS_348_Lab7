@@ -1,0 +1,66 @@
+<!--Purpose: HTML code for Lab 7 Practice 2-->
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0"> <!--scales page to fit screen of device-->
+        
+        <!--Google font-->
+        <link rel = "preconnect" href = "https://fonts.googleapis.com">
+        <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+        <link href = "https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel = "stylesheet">
+
+         <!--Button Icon found on W3Schools-->
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+         <!--Imports CSS from practice2.css-->
+        <link rel = "stylesheet" href = "practice2.css">
+
+        <title>Practice 2</title>
+    </head>
+    
+    <body>
+         <!--Home button with icon that opens to index.html-->
+        <button class = "btn" onclick = "window.location.href = 'index.html';"><i class = "fa fa-home"></i> Home</button>
+        
+        <h1>Change the Text!</h1>
+
+        <div id = "paragraph">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+            but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </div>
+        
+        <!--Imports JS from practice2.js-->
+        <script type = "text/javascript" src = "practice2.js"></script>
+
+        <br>
+        <!--Text fields for each element-->
+        Border R (0-255): <input type = "text" id = "border_R" value = "">
+        <br><br>
+        
+        Border G (0-255): <input type = "text" id = "border_G" value = "">
+        <br><br>
+        
+        Border B (0-255): <input type = "text" id = "border_B" value = "">
+        <br><br>
+       
+        Border Width: <input type = "text" id = "border_width" value= "">
+        <br><br>
+        
+        Background R (0-255): <input type = "text" id = "bg_R" value = "">
+        <br><br>
+        
+        Background G (0-255): <input type = "text" id = "bg_G" value = "">
+        <br><br>
+        
+        Background B (0-255): <input type = "text" id ="bg_B" value = "">
+        <br><br>
+
+        <button onclick = "change_color()">Change the color!</button> <!--button that calls a function to change color-->
+        <br>
+    </body>
+
+</html>

@@ -1,0 +1,39 @@
+<!--Purpose: HTMl code for Lab 7 Practice 4-->
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0"> <!--scales page to fit screen of device-->
+
+        <!--Google font-->
+        <link rel = "preconnect" href = "https://fonts.googleapis.com">
+        <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+        <link href = "https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel = "stylesheet">
+
+        <!--Button Icon found on W3Schools-->
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!--Imports CSS from practice4.css-->
+        <link rel = "stylesheet" href = "practice4.css">
+
+        <title>Practice 4</title>
+    </head>
+
+    <body>
+        <!--Home button with icon that opens to index.html-->
+        <button class = "btn" onclick = "window.location.href = 'index.html';"><i class = "fa fa-home"></i> Home</button>
+
+        <h1>Multiplication Table</h1>
+
+        <p>
+            Size of the Multiplication Table:
+            <form action = "practice4.php" method = "post"> <!--calls to PHP file-->
+                <input type = "text" name = "size"> <!--user input for size-->
+                <br><br>
+                <input type = "submit">
+            </form>
+        </p>
+    </body>
+    
+</html>

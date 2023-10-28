@@ -1,0 +1,10 @@
+/*Purpose: CSS code for Lab 7 Website Index*/
+
+h1{
+    text-align: center;
+}
+
+body{
+    font-family: "Quicksand", sans;
+    padding: 20px 50px 20px;
+}

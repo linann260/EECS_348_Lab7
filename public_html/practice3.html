@@ -1,0 +1,42 @@
+<!--Purpose: HTML code for Lab 7 Practice 3-->
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0"> <!--scales page to fit screen of device-->
+
+        <!--Google font-->
+        <link rel = "preconnect" href = "https://fonts.googleapis.com">
+        <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+        <link href = "https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel = "stylesheet">
+
+        <!--Button Icon found on W3Schools-->
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!--Imports CSS from practice3.css-->
+        <link rel = "stylesheet" href = "practice3.css">
+
+        <title>Practice 3</title>
+    </head>
+    
+    <body>
+        <!--Imports JS from practice3.js-->
+        <script type = "text/javascript" src = "practice3.js"></script>
+        
+         <!--Home button with icon that opens to index.html-->
+        <button class = "btn" onclick = "window.location.href = 'index.html';"><i class = "fa fa-home"></i> Home</button>
+
+        <h1>Password Verification</h1>
+        <p>
+            New Password
+            <input type = "text"  id = "pass1" value> <!--text field for pass1 value-->
+        </p>
+        <p>
+            Re-enter New Password
+            <input type = "text" id = "pass2" value> <!--text field for pass2 value-->
+        </p>
+        <button onclick = "validate()">Validate Your Passwords</button> <!--button that calls a function to validate the passwords-->
+    </body>
+    
+</html>
